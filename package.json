@@ -1,7 +1,7 @@
 {
   "name": "bytebin",
   "version": "0.0.1",
-  "description": "A minimalistic system tray app for clipboard history monitoring",
+  "description": "A minimalistic system tray app for managing clipboard history",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
