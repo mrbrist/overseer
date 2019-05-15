@@ -1,0 +1,15 @@
+{
+  "name": "bytebin",
+  "version": "0.0.1",
+  "description": "A minimalistic system tray app for clipboard history monitoring",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/mrbrist/bytebin",
+  "author": "mrbrist",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^3.0.3"
+  }
+}
