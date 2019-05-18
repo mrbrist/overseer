@@ -1,6 +1,6 @@
 <p align="center">
-  <!-- <img src="./assets/logo_medium.png"/> <br> -->
-  <!-- <img src="https://cdn.rawgit.com/standard/standard/master/badge.svg" href="https://github.com/standard/standard"/> -->
+  <img src="./assets/logo_medium.png"/> <br>
+  <img src="https://cdn.rawgit.com/standard/standard/master/badge.svg" href="https://github.com/standard/standard"/>
 </p>
 
 **overseer** is built on [Electron](https://electronjs.org) and will always aim to be
