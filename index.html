@@ -7,17 +7,24 @@
     <link rel="stylesheet" href="src/css/material-icons.css">
   </head>
 <body>
-  <br>
   <div id="main">
     <div id="input">
-      <input type="text" name="search" id="searchBar">
+      <input type="text" name="search" id="searchBar" placeholder="Search...">
       <button type="button" name="clear" id="clearBtn"><i class="material-icons">delete</i></button>
     </div>
+    <div id="clipList">
+      <!-- <span id="noClips">No clipboard history :(</span> -->
+      <div class="clipItem"><span id="clipPreview">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span><span id="clipTime">23:02</span></div>
+      <div class="clipItem"><span id="clipPreview">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span><span id="clipTime">23:59</span></div>
+      <div class="clipItem"><span id="clipPreview">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span><span id="clipTime">23:02</span></div>
+      <div class="clipItem"><span id="clipPreview">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span><span id="clipTime">23:59</span></div>
+      <div class="clipItem"><span id="clipPreview">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span><span id="clipTime">23:02</span></div>
+      <div class="clipItem"><span id="clipPreview">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span><span id="clipTime">23:59</span></div>
+    </div>
   </div>
-  <!-- <span id="noClips">No clipboard history :(</span> -->
-<script>
-    // You can also require other files to run in this process
-    require('./src/renderer.js')
-</script>
+  <script>
+      // You can also require other files to run in this process
+      require('./src/renderer.js')
+  </script>
 </body>
 </html>
