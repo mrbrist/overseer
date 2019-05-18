@@ -4,9 +4,17 @@
     <meta charset="UTF-8">
     <title>bytebin</title>
     <link rel="stylesheet" href="src/css/master.css">
-</head>
+    <link rel="stylesheet" href="src/css/material-icons.css">
+  </head>
 <body>
-  <span id="noClips">No clipboard history :(</span>
+  <br>
+  <div id="main">
+    <div id="input">
+      <input type="text" name="search" id="searchBar">
+      <button type="button" name="clear" id="clearBtn"><i class="material-icons">delete</i></button>
+    </div>
+  </div>
+  <!-- <span id="noClips">No clipboard history :(</span> -->
 <script>
     // You can also require other files to run in this process
     require('./src/renderer.js')
