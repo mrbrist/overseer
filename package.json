@@ -14,11 +14,8 @@
   },
   "dependencies": {
     "@amaurymartiny/menubar": "^6.0.1",
-    "@sentry/node": "^5.2.0",
     "jquery": "^3.4.1",
     "material-design-icons": "^3.0.1",
-    "nedb": "^1.8.0",
-    "pouchdb": "^7.0.0",
     "uuid": "^3.3.2"
   }
 }
